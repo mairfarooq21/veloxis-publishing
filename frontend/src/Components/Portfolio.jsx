@@ -1,0 +1,75 @@
+import React from 'react';
+import PortfolioBg from '../assets/portfolio-bg.jpg';
+import Portfolio1 from '../assets/portfolio1.png';
+import Portfolio2 from '../assets/portfolio2.png';
+import Portfolio3 from '../assets/portfolio3.png';
+import Portfolio4 from '../assets/portfolio4.png';
+import Portfolio5 from '../assets/portfolio5.png';
+import Portfolio6 from '../assets/portfolio6.png';
+import Portfolio7 from '../assets/portfolio7.png';
+
+const imagePaths = [
+  Portfolio1,
+  Portfolio2,
+  Portfolio3,
+  Portfolio4,
+  Portfolio5,
+  Portfolio6,
+  Portfolio7,
+];
+
+const Portfolio = () => {
+  const doubledImages = [...imagePaths, ...imagePaths];
+
+  return (
+    <section className="w-full bg-cover bg-center" style={{ backgroundImage: `url(${PortfolioBg})` }}>
+      <section className="max-w-[1200px] mx-auto text-center pt-[80px] pb-[30px]">
+        <button
+          disabled
+          className="text-white border-[2px] border-[#1BBED3] px-9 py-2 rounded-full text-[19px] font-medium mb-4"
+        >
+          Our Portfolio
+        </button>
+        <h2 className="text-white text-[45px] font-semibold leading-snug mx-auto">
+          Explore Diverse Genres Through The Powerful Stories Of Our Talented Writers.
+        </h2>
+      </section>
+
+      {/* Top Slider */}
+      <div className="w-full overflow-hidden py-6">
+        <div className="flex gap-4 w-fit animate-scroll whitespace-nowrap">
+          {doubledImages.map((src, index) => (
+            <img
+              key={`top-${index}`}
+              src={src}
+              alt={`Book ${index}`}
+              className="w-[240px] h-[360px] object-cover shrink-0 hover:scale-105 transition-transform duration-300"
+            />
+          ))}
+        </div>
+      </div>
+
+      {/* Bottom Slider */}
+      <div className="w-full overflow-hidden py-6">
+        <div className="flex gap-4 w-fit animate-scroll-reverse whitespace-nowrap">
+          {doubledImages.map((src, index) => (
+            <img
+              key={`bottom-${index}`}
+              src={src}
+              alt={`Book ${index}`}
+              className="w-[240px] h-[360px] object-cover shrink-0 hover:scale-105 transition-transform duration-300"
+            />
+          ))}
+        </div>
+      </div>
+
+      <section className="flex justify-center pt-[30px] pb-[80px]">
+        <button className="relative flex items-center justify-center px-9 py-3 text-white text-[20px] font-semibold rounded-full z-10 bg-gradient-to-r from-[#2E2A7A] to-[#1BBED3] border border-[#1BBED3]">
+          See All Portfolios
+        </button>
+      </section>
+    </section>
+  );
+};
+
+export default Portfolio;
