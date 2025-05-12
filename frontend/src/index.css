@@ -59,3 +59,22 @@ body {
 .animate-carousel {
   animation: carousel 25s linear infinite;
 }
+
+/*testimonslider*/
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+
+.animate-scroll-reverse {
+  animation: scroll 20s linear infinite reverse;
+}

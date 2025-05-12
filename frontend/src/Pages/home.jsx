@@ -8,6 +8,10 @@ import Services from '../Components/Services.jsx'
 import Portfolio from '../Components/Portfolio.jsx'
 import Author from '../Components/Author.jsx'
 import BestSeller from '../Components/BestSeller.jsx'
+import TestimonialsSlider from '../Components/TestimonialsSlider.jsx'
+import ContactSection from '../Components/ContactSection.jsx'
+import ContactWindow from '../Components/ContactWindow.jsx'
+import Footer from '../Components/Footer.jsx'
 
 const Home = () => {
   return (
@@ -21,6 +25,10 @@ const Home = () => {
       <Portfolio />
       <Author />
       <BestSeller />
+      <TestimonialsSlider />
+      <ContactSection />
+      <ContactWindow />
+      <Footer />
     </>
   )
 }
