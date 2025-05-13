@@ -27,7 +27,7 @@ const Hero = () => {
           {/* First Column */}
           <div className="w-[50%] flex justify-end pl-10">
             <div className="w-[745px]">
-              <span className="relative inline-block text-white mb-2 px-[30px] py-[8px] rounded-full z-10 before:content-[''] before:absolute before:inset-0 before:p-[2px] before:rounded-full before:bg-transparent before:z-[-1] before:mask-composite-exclude before:mask-[linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] border-[#1bcdfc] border-[2px]">
+              <span className="gradient-border relative inline-block !text-white mb-2 px-[30px] py-[8px] rounded-full z-10 before:content-[''] before:absolute before:inset-0 before:p-[2px] before:rounded-full before:bg-transparent before:z-[-1] before:mask-composite-exclude before:mask-[linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] border-[#1bcdfc] border-[2px]">
                 Professional Book Writing Services USA
               </span>
               <h1 className="text-white text-[50px] font-bold mt-3 mb-6 leading-tight">
@@ -40,7 +40,7 @@ const Hero = () => {
               <div className="flex flex-row mb-8 gap-4">
                 <a
                   href="#"
-                  className="text-white bg-gradient-to-r from-[#2E2A7A] to-[#1BBED3] border-[2px] border-[#1BBED3] px-[26px] py-[11px] flex items-center justify-center rounded-full font-[600] no-underline text-[16px] bg-clip-padding"
+                  className="gradient-border !text-white bg-gradient-to-r from-[#2E2A7A] to-[#1BBED3] !px-[36px] !py-[11px] flex items-center justify-center rounded-full font-[600] no-underline text-[16px] bg-clip-padding"
                 >
                   Let’s Get Started
                 </a>

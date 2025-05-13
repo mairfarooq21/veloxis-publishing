@@ -54,11 +54,16 @@ const Quote = () => {
             </label>
           </div>
           <button
-            type="submit"
-            className="relative px-[60px] py-[10px] bg-white text-black font-bold rounded-[30px] z-[1] overflow-hidden group border-[2px] border-black"
-          >
-            Submit
-          </button>
+  type="submit"
+  className="gradient-border relative !px-[60px] !py-[10px] !bg-white font-bold rounded-[30px] z-[1] overflow-hidden group border-[2px] border-transparent
+    transition-all duration-300  hover:bg-gradient-to-r hover:from-[#2E2A7A] hover:to-[#1BBED3] hover:!text-white">
+  <span
+    className="bg-gradient-to-r from-[#2E2A7A] to-[#1BBED3] bg-clip-text text-transparent transition-all duration-300 group-hover:text-white"
+  >
+    Submit
+  </span>
+</button>
+
         </div>
 
       </div>

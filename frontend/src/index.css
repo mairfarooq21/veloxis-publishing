@@ -78,3 +78,95 @@ body {
 .animate-scroll-reverse {
   animation: scroll 20s linear infinite reverse;
 }
+
+
+/* css for gradient background  */
+
+.gradient-border{
+        position: relative;
+        padding: 11px 24px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        background-color: transparent;
+        color: black;
+        justify-self: flex-start;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.3s, color 0.3s, border 0.3s;
+        z-index: 1;
+        border: none; /* remove default solid border */
+      }
+      
+      .gradient-border::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        padding: 2px; /* controls border thickness */
+        border-radius: 30px;
+        background: linear-gradient(to left, #2E2A7A, #1BBED3);
+        -webkit-mask:
+          linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+                mask-composite: exclude;
+        z-index: -1;
+      }
+
+
+      /* css for center gradient border  */
+
+      .badge{
+        position: relative;
+        padding: 10px 24px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        display: flex;
+        border-radius: 30px;
+        background-color: transparent;
+        color: white;
+        align-self: center;
+        justify-self: center;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.3s, color 0.3s, border 0.3s;
+        z-index: 1;
+        border: none; /* remove default solid border */
+      }
+      
+      .badge::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        padding: 2px; /* controls border thickness */
+        border-radius: 30px;
+        background: linear-gradient(to left, #2E2A7A, #1BBED3);
+        -webkit-mask:
+          linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+                mask-composite: exclude;
+        z-index: -1;
+      }
+
+      /* css for gradient border with gradient background */
+
+      .card-button::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        padding: 2px; /* controls border thickness */
+        border-radius: 30px;
+        background: linear-gradient(to left, #2E2A7A, #1BBED3);
+        -webkit-mask:
+          linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+                mask-composite: exclude;
+        z-index: -1;
+      }

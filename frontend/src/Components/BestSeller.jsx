@@ -47,10 +47,10 @@ const BestSeller = () => {
     };
   
     return (
-      <section className="pt-24 max-w-[1300px] mx-auto flex flex-col items-center">
-        <h5 className="text-lg font-semibold bg-gradient-to-l from-[#2E2A7A] to-[#1BBED3] bg-clip-text text-transparent mb-2">6 Step Process</h5>
-        <h2 className="text-4xl font-bold mb-1">Creating A Best-Seller Book</h2>
-        <p className="text-sm text-gray-700 mb-8">Helping your busy schedule in mind, we’ve simplified the process into six easy steps.</p>
+      <section className="pt-24 max-w-[1300px] mx-auto flex mb-[100px] flex-col items-center">
+        <h5 className="badge text-md !text-black !px-10 !py-3">6 Step Process</h5>
+        <h1 className="text-5xl mt-4 font-bold mb-1">Creating A Best-Seller Book</h1>
+        <p className="text-xl mt-3 text-gray-700 mb-8">Helping your busy schedule in mind, we’ve simplified the process into six easy steps.</p>
   
         {steps.map((step, index) => (
           <div

@@ -21,7 +21,7 @@ const Author = () => {
         </p>
         <div className="flex flex-col md:flex-row justify-center gap-4 mt-4">
           {/* Hire Button */}
-          <button className="relative font-semibold rounded-full px-10 py-[10px] z-10 overflow-hidden bg-gradient-to-l from-[#2E2A7A] to-[#1BBED3] text-white border-[2px] border-[#1BBED3]">
+          <button className="card-button relative flex items-center justify-center px-9 py-3 text-white text-[20px] font-semibold rounded-full z-10 bg-gradient-to-r from-[#2E2A7A] to-[#1BBED3]">
             Hire Author
           </button>
 

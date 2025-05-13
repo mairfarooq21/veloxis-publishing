@@ -26,7 +26,7 @@ const Portfolio = () => {
       <section className="max-w-[1200px] mx-auto text-center pt-[80px] pb-[30px]">
         <button
           disabled
-          className="text-white border-[2px] border-[#1BBED3] px-9 py-2 rounded-full text-[19px] font-medium mb-4"
+          className="badge !px-10 !py-3"
         >
           Our Portfolio
         </button>
@@ -64,7 +64,7 @@ const Portfolio = () => {
       </div>
 
       <section className="flex justify-center pt-[30px] pb-[80px]">
-        <button className="relative flex items-center justify-center px-9 py-3 text-white text-[20px] font-semibold rounded-full z-10 bg-gradient-to-r from-[#2E2A7A] to-[#1BBED3] border border-[#1BBED3]">
+        <button className="card-button relative flex items-center justify-center px-9 py-3 text-white text-[20px] font-semibold rounded-full z-10 bg-gradient-to-r from-[#2E2A7A] to-[#1BBED3] ">
           See All Portfolios
         </button>
       </section>

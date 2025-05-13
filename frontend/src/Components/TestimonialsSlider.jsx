@@ -47,7 +47,7 @@ const TestimonialCard = ({ name, title, avatar, platformIcon, content }) => (
 );
 
 const TestimonialSlider = ({ reverse = false }) => (
-  <div className={`flex w-[95%] overflow-hidden py-2 ${reverse ? 'self-start' : 'self-end'}`}>
+  <div className={`flex w-[100%] overflow-hidden py-2 ${reverse ? 'self-start' : 'self-end'}`}>
     <div
       className={`flex gap-5 w-fit animate-scroll ${reverse ? 'animate-scroll-reverse' : ''}`}
     >
@@ -67,11 +67,11 @@ const TestimonialsSlider = () => (
       backgroundPosition: 'center',
     }}
   >
-    <div className="relative px-6 py-2 w-[150px] text-center mb-2 rounded-full font-semibold cursor-pointer z-10 border-none text-white before:absolute before:inset-0 before:p-[2px] before:rounded-full before:bg-gradient-to-l before:from-[#2E2A7A] before:to-[#1BBED3] before:mask-linear before:mask-composite-exclude">
-      <span className="relative z-10">Testimonials</span>
+    <div className="badge !px-10 !py-3">
+      <span className="relative z-10 ">Testimonials</span>
     </div>
-    <h2 className="text-4xl font-bold mb-2">Loved By Product People</h2>
-    <p className="text-gray-300 text-base mb-12 text-center max-w-xl">
+    <h2 className="text-5xl font-bold mb-2">Loved By Product People</h2>
+    <p className="text-gray-300 text-[18px] mb-12 text-center max-w-4xl">
       Keeping your busy schedule in mind, we've simplified the process into six easy steps.
     </p>
     <TestimonialSlider />

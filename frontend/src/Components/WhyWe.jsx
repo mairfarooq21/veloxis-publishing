@@ -9,7 +9,7 @@ const WhyWe = () => {
       </div>
       <div className="flex-1 w-[50%] p-5">
         <div className='w-[640px]'>
-          <span className="relative inline-block text-black mb-2 px-[30px] py-[8px] rounded-full z-10 before:content-[''] before:absolute before:inset-0 before:p-[2px] before:rounded-full before:bg-transparent before:z-[-1] before:mask-composite-exclude before:mask-[linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] border-[#1bcdfc] border-[2px]">
+          <span className="gradient-border !px-10 !py-3">
             Why We
           </span>
           <h2 className="text-[45px] font-semibold mt-4 mb-4">
