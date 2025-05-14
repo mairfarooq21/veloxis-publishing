@@ -21,12 +21,12 @@ const Author = () => {
         </p>
         <div className="flex flex-col md:flex-row justify-center gap-4 mt-4">
           {/* Hire Button */}
-          <button className="card-button relative flex items-center justify-center px-9 py-3 text-white text-[20px] font-semibold rounded-full z-10 bg-gradient-to-r from-[#2E2A7A] to-[#1BBED3]">
+          <button className="card-button relative flex items-center justify-center px-9 py-3 text-white text-[20px] font-semibold rounded-full z-10 bg-gradient-to-r from-[#2E2A7A] to-[#1BBED3] hover:from-[white] hover:to-[white] hover:text-black">
             Hire Author
           </button>
 
           {/* Chat Button */}
-          <button className="bg-white text-black font-semibold rounded-full px-6 py-[10px] hover:bg-gray-100 border-[2px] border-white">
+          <button className="card-button bg-white text-black font-semibold rounded-full px-6 py-[10px]   hover:bg-gradient-to-r hover:!from-[#2E2A7A] hover:!to-[#1BBED3] hover:text-white">
             Chat with Us
           </button>
         </div>

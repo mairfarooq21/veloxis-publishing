@@ -1,6 +1,8 @@
 import React from 'react';
 import ContactImg from '../assets/contact.png'
 
+
+
 const ContactSection = () => {
   return (
     <div className="flex flex-col md:flex-row gap-12 max-w-[1500px] mx-auto my-24 overflow-hidden">
@@ -36,10 +38,11 @@ const ContactSection = () => {
             <i className="fas fa-comment-dots absolute top-4 left-4 text-gray-500"></i>
             <textarea placeholder="Write something here..." required className="w-full pl-12 pt-3 pb-3 border border-gray-300 rounded-xl text-base min-h-[100px] resize-none"></textarea>
           </div>
+          
 
           <button
   type="submit"
-  className="badge relative w-full py-3 font-bold text-xl !text-black bg-transparent border border-gray-300 overflow-hidden transition-all duration-300
+  className="badge relative w-full !py-3  font-bold text-xl !text-black bg-transparent border border-gray-300 overflow-hidden transition-all duration-300
              hover:bg-gradient-to-r hover:from-[#2E2A7A] hover:to-[#1BBED3] hover:!text-white"
 >
   <span className="relative z-10">Submit Now</span>

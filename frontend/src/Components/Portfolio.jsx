@@ -64,7 +64,7 @@ const Portfolio = () => {
       </div>
 
       <section className="flex justify-center pt-[30px] pb-[80px]">
-        <button className="card-button relative flex items-center justify-center px-9 py-3 text-white text-[20px] font-semibold rounded-full z-10 bg-gradient-to-r from-[#2E2A7A] to-[#1BBED3] ">
+        <button className="card-button relative flex items-center justify-center px-9 py-3 text-white text-[20px] font-semibold rounded-full z-10 bg-gradient-to-r from-[#2E2A7A] to-[#1BBED3] hover:from-[white] hover:to-[white] hover:text-black">
           See All Portfolios
         </button>
       </section>

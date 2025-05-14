@@ -21,8 +21,8 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div className="flex-1 min-w-[220px] mb-8 justify-items-center">
-          <h3 className="text-2xl font-semibold mb-4">Quick Links</h3>
-          <ul className="ml-6 space-y-2 text-md text-[#d1d1d1] ">
+          <h3 className="w-[150px] text-2xl font-semibold mb-4">Quick Links</h3>
+          <ul className="w-[150px] space-y-2 text-md text-[#d1d1d1] ">
             {["About Us", "Book Writing", "Book Editing", "Book Marketing", "Book Publishing", "Illustration", "Contact Us"].map(link => (
               <li key={link} className="hover:font-bold cursor-pointer">{link}</li>
             ))}
@@ -36,9 +36,9 @@ const Footer = () => {
           <p className="text-[#d1d1d1] text-md my-4 w-[80%]">Email: Info@veloxispublishing.com</p>
           <p className="text-[#d1d1d1] text-md my-4 w-[80%]">Address: 2200 Meadowlake Rd, Conway AR 72032</p>
           <div className="flex mt-6 space-x-3">
-            <FaFacebookF className="bg-gradient-to-r from-[#1e3c72] to-[#2a9fd6] rounded-full p-2 text-white text-lg w-9 h-9 cursor-pointer" />
-            <FaInstagram className="bg-gradient-to-r from-[#1e3c72] to-[#2a9fd6] rounded-full p-2 text-white text-lg w-9 h-9 cursor-pointer" />
-            <FaLinkedinIn className="bg-gradient-to-r from-[#1e3c72] to-[#2a9fd6] rounded-full p-2 text-white text-lg w-9 h-9 cursor-pointer" />
+            <FaFacebookF className="bg-gradient-to-r from-[#1e3c72] to-[#2a9fd6] rounded-full p-2 text-white text-lg w-9 h-9 cursor-pointer hover:from-[white] hover:to-[white] hover:text-black" />
+            <FaInstagram className="bg-gradient-to-r from-[#1e3c72] to-[#2a9fd6] rounded-full p-2 text-white text-lg w-9 h-9 cursor-pointer hover:from-[white] hover:to-[white] hover:text-black" />
+            <FaLinkedinIn className="bg-gradient-to-r from-[#1e3c72] to-[#2a9fd6] rounded-full p-2 text-white text-lg w-9 h-9 cursor-pointer hover:from-[white] hover:to-[white] hover:text-black" />
           </div>
         </div>
 
@@ -52,7 +52,7 @@ const Footer = () => {
               placeholder="Email address"
               className="px-4 py-3 border border-gray-300 rounded-l-md bg-transparent outline-none w-[300px]"
             />
-            <button className="px-4 py-3 bg-gradient-to-r from-[#1e3c72] to-[#2a9fd6] text-white rounded-r-md">
+            <button className="px-4 py-3 bg-gradient-to-r from-[#1e3c72] to-[#2a9fd6] text-white rounded-r-md hover:from-[white] hover:to-[white] hover:text-black">
               <FaArrowRight />
             </button>
           </div>
