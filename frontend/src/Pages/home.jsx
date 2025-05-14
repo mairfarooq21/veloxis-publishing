@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/navbar.jsx'
+import Navbar from '../components//Navbar.jsx'
 import Hero from '../Components/Hero.jsx'
 import Quote from '../Components/Quote.jsx'
 import BrandCarousel from '../Components/BrandCarousel.jsx'
