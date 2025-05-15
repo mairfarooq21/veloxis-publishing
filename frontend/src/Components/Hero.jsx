@@ -38,8 +38,8 @@ const Hero = () => {
                 Your Ultimate Destination For Professional Book Publishing
               </h1>
               <p className="text-white text-lg mb-[30px] leading-relaxed text-[20px] font-[400]">
-                From manuscript to bestseller, let our expert team turn your ideas
-                <br /> into a published book – 100% Author Satisfaction!
+                Let our expert team transform your ideas into a published book –
+                <br /> with 100% Author Satisfaction!
               </p>
               <div className="flex flex-row mb-8 gap-4">
                 <a

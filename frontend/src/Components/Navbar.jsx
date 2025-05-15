@@ -39,7 +39,7 @@ const Navbar = () => {
           <p className="font-[500] hover:underline transition-all duration-200">Contact Us</p>
         </NavLink>
       </ul>
-      <div className="p-[1.75px] rounded-full bg-gradient-to-r from-[#1BBED3] to-[#2E2A7A] inline-block">
+      <div className="p-[1px] rounded-full bg-gradient-to-r from-[#1BBED3] to-[#2E2A7A] inline-block">
         <a
           href="tel:8703339799"
           className="group gradient-border !text-white bg-gradient-to-r from-[#2E2A7A] to-[#1BBED3] !px-[36px] !py-[11px] flex items-center justify-center rounded-full font-[600] no-underline text-[16px] bg-clip-padding hover:!text-black transition-colors duration-300 hover:from-white hover:to-white"

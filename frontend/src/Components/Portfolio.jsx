@@ -30,8 +30,8 @@ const Portfolio = () => {
         >
           Our Portfolio
         </button>
-        <h2 className="text-white text-[45px] font-semibold leading-snug mx-auto">
-          Explore Diverse Genres Through The Powerful Stories Of Our Talented Writers.
+        <h2 className="text-white text-[40px] font-semibold leading-snug mx-auto">
+          Experience powerful storytelling across a variety of genres, brought to life by our talented team of writers.
         </h2>
       </section>
 

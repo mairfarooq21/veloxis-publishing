@@ -12,8 +12,8 @@ const Author = () => {
       </div>
 
       {/* Center Content */}
-      <div className="text-white text-center w-[100%]">
-        <h2 className="text-[2.4rem] font-semibold leading-[1.2]">
+      <div className="text-white text-center xxl:-mx-20">
+        <h2 className="text-[38px] xxl:text-[35px] font-semibold leading-[1.2]">
           Your Journey to Becoming a <br /> Best-Selling Author has Never Been this Easy!
         </h2>
         <p className="text-[17px] mt-3 mb-4">

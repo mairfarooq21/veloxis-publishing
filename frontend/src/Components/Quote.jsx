@@ -8,8 +8,8 @@ const Quote = () => {
   };
 
   return (
-    <section className="bg-gradient-to-r from-[#2e2a7a] to-[#1bbed3] py-[45px] px-5 text-white font-poppins flex justify-center items-center">
-      <div className="w-[80%] flex justify-center items-center gap-[30px]">
+    <section className="bg-gradient-to-r from-[#2e2a7a] to-[#1bbed3] py-[45px] px-10 text-white font-poppins flex justify-center items-center">
+      <div className="w-[80%] xxl:w-[100%] flex justify-center items-center gap-[30px]">
         
         {/* 1st Grid: Text Area */}
         <div className="flex flex-col w-[30%]">

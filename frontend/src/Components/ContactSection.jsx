@@ -5,7 +5,7 @@ import ContactImg from '../assets/contact.png'
 
 const ContactSection = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-12 max-w-[1500px] mx-auto my-24 overflow-hidden">
+    <div className="flex flex-col self-center md:flex-row gap-12 max-w-[1500px] my-24 mx-auto px-10 overflow-hidden">
       {/* Contact Form */}
       <div className="flex-1 bg-white p-6 rounded-lg">
         <div className="gradient-border !text-black !px-10 !py-3">
@@ -54,8 +54,8 @@ const ContactSection = () => {
       {/* Contact Image */}
       <div className="flex-1 relative max-w-[45%] rounded-2xl bg-cover bg-center p-20 text-white flex items-center justify-center" style={{ backgroundImage: `url(${ContactImg})` }}>
         <div className="absolute inset-0 bg-gradient-to-br from-[rgba(0,72,255,0.8)] to-[rgba(127,0,255,0.8)] opacity-10 rounded-2xl z-0" />
-        <h3 className="relative z-10 text-4xl font-bold text-center leading-snug">
-          We specialise in helping our customers bring their books to life through professional, end-to-end publishing solutions.
+        <h3 className="relative z-10 text-[38px] font-bold text-center leading-snug">
+          We specialize in bringing your book to life through comprehensive, professional publishing solutions—every step of the way.
         </h3>
       </div>
     </div>

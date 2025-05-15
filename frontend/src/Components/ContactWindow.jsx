@@ -7,8 +7,8 @@ const ContactWindow = () => {
             <h2 className="text-[3.5rem] font-bold">Move even faster with Veloxis</h2>
             <p className="text-[2.8rem] font-bold mb-8">Your guide in the Book Publishing.</p>
             <div className="flex justify-center flex-wrap gap-5">
-            <button className="bg-white text-black font-bold border-none py-2.5 px-12 rounded-full text-lg hover:opacity-90 transition transition-all duration-300
-             hover:bg-gradient-to-r hover:from-[#2E2A7A] hover:to-[#1BBED3] hover:!text-white ">
+            <button className="bg-white text-black font-bold border-2 border-white py-2.5 px-12 rounded-full text-lg hover:opacity-90 transition transition-all duration-300
+             hover:bg-gradient-to-r hover:from-[#2E2A7A] hover:to-[#1BBED3] hover:!text-white hover:border-white ">
                 Let’s Talk
             </button>
             <button className="bg-transparent text-white font-semibold py-3 px-7 rounded-full text-base border-2 border-white hover:bg-gradient-to-r hover:from-[#2E2A7A] hover:to-[#1BBED3]">

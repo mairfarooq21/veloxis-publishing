@@ -16,21 +16,21 @@ const WhyWe = () => {
             You Need Professional Book Publishing Services?
           </h2>
           <p className="mb-2 leading-relaxed text-[#666666]">
-            Here is a list of reasons why you might be looking for a ghostwriting service;
+            Here are a few reasons you might be considering a ghostwriting or book publishing service:
           </p>
           <ul className="list-disc pl-5 mb-4 space-y-2 text-[#201A1A]">
-            <li><strong>You're a busy professional on your daily grind.</strong></li>
-            <li><strong>You do not know where to start.</strong></li>
-            <li><strong>You might not be a writer.</strong></li>
-            <li><strong>You need an expert opinion on your already-written manuscript.</strong></li>
-            <li><strong>You have no design expertise for a book cover or any illustrations.</strong></li>
-            <li><strong>You already have a book but aren't sure about how to sell it.</strong></li>
+            <li><strong>You're a busy professional with limited time to write.</strong></li>
+            <li><strong>You’re not sure how to begin the writing process.</strong></li>
+            <li><strong>You don’t consider yourself a writer.</strong></li>
+            <li><strong>You’re seeking expert feedback on your manuscript.</strong></li>
+            <li><strong>You need professional design for your book cover or illustrations.</strong></li>
+            <li><strong>You’ve already written a book but aren’t sure how to market it.</strong></li>
           </ul>
           <p className="mb-2 leading-relaxed text-[#666666]">
-            We understand that writing isn’t everyone’s cup of tea, but that does not mean people should give up on their ideas. You’re a wonderful person full of never-before-thought visions; we’re here to actualize them.
+            We understand that writing isn’t everyone’s strength—but that shouldn’t stop you from sharing your vision with the world. You have unique ideas that deserve to be heard. Our team is here to bring them to life.
           </p>
           <p className="leading-relaxed text-[#666666]">
-            Why not let us join you on this journey to create your best-selling book? We’d be honored to collaborate with you!
+            Let’s work together to turn your story into a bestseller. We’d be honored to be part of your journey.
           </p>
         </div>
       </div>

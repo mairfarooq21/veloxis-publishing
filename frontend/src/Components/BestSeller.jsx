@@ -9,32 +9,32 @@ import BestSeller6 from '../assets/bestseller6.png';
 const steps = [
   {
     title: 'Sign Up',
-    content: 'Start by signing up at our website or giving us a call. It is very easy to reach us via online or a phone call.',
+    content: "Begin by signing up on our website or giving us a call—connecting with us is quick and easy. You'll gain instant access to our publishing resources and a dedicated team ready to support your journey. No complicated steps—just a simple start to getting your book out into the world.",
     icon: BestSeller1,
   },
   {
     title: 'Share Project Details',
-    content: 'Share your project with us in detail. We will need to know the ins and outs of your project’s content.',
+    content: "Tell us everything about your book idea so we can fully understand your vision. Whether it’s a rough concept or a full manuscript, we’re here to listen and collaborate. The more you share, the better we can tailor our services to bring your story to life.",
     icon: BestSeller2,
   },
   {
     title: 'Research & Draft',
-    content: 'After confirmation of your order, our team carries out research and formulates an outline for your book.',
+    content: "Once your order is confirmed, our team conducts research and creates a detailed outline. We ensure your content is accurate, engaging, and aligned with your target audience. You’ll receive regular updates and drafts so you’re always part of the creative process.",
     icon: BestSeller3,
   },
   {
     title: 'Editing & Proofreading',
-    content: 'Once the book has been completed, our editors proofread and make the final corrections.',
+    content: "Our editors review the draft, correct errors, and polish the manuscript for perfection. We focus on clarity, consistency, tone, and grammar to elevate your writing. The result is a refined, publication-ready manuscript that meets industry standards.",
     icon: BestSeller4,
   },
   {
     title: 'Cover Designing',
-    content: 'We then design the front and back covers for your book to match the very essence of the content inside.',
+    content: "We craft professional front and back covers that align with your story’s theme. Our designers combine creativity and market trends to create eye-catching visuals. A stunning cover ensures your book stands out both online and on shelves.",
     icon: BestSeller5,
   },
   {
     title: 'Publishing',
-    content: 'We publish your book and develop custom strategies to ensure maximum revenue generation for your book.',
+    content: "Your book is published and supported by customized strategies for maximum exposure and revenue. We distribute across leading platforms and help you reach your ideal readers. From launch to long-term sales, we’re with you every step of the way.",
     icon: BestSeller6,
   },
 ];

@@ -12,31 +12,31 @@ const initialCards = [
     image: GhostWritingLogo,
     title: 'Ghostwriting',
     description:
-      'Expand your reach effortlessly with our expert ghostwriters, who carefully craft and format your digital documents to perfection.',
+      'Reach a wider audience with our skilled ghostwriters, who thoughtfully craft and format your content to perfection.',
   },
   {
     image: BookWritingLogo,
     title: '⁠Book Editing',
     description:
-      'Expand your reach effortlessly with our expert editors, who carefully format your digital document to perfection.',
+      'Ensure your manuscript is flawless with our expert editors, dedicated to refining and polishing every word.',
   },
   {
     image: CoverDesignLogo,
     title: 'Book Cover Design',
     description:
-      'Make a lasting first impression with a professionally designed book cover that captivates your audience and reflects your story’s essence.',
+      'Create an unforgettable first impression with a custom book cover that reflects your story’s soul.',
   },
   {
     image: IllustrativeArtLogo,
     title: 'Illustrative Art',
     description:
-      'Bring your book to life with stunning illustrations crafted by skilled artists, adding depth and visual appeal to your narrative.',
+      'Add depth and beauty to your book with stunning, hand-crafted illustrations by professional artists.',
   },
   {
     image: PublishingLogo,
     title: 'Publishing',
     description:
-      'Seamlessly publish your book with expert guidance, ensuring a smooth transition from manuscript to market-ready masterpiece.',
+      'From manuscript to market, we provide seamless publishing support and strategies for success.',
   },
 ];
 
@@ -82,19 +82,17 @@ const Services = () => {
           {cards.map((card, index) => (
             <div
               key={index}
-              className="group flex-shrink-0 transition-all duration-300 px-11 py-24 w-[20%] flex flex-col justify-start items-start h-[550px]
+              className="group flex-shrink-0 transition-all duration-300 px-11 py-24 xxl:px-8 xxl:py-14 w-[20%] flex flex-col justify-start items-start h-[550px] xxl:h-[500px]
                 border border-gray-300 bg-white text-black hover:scale-[1.1]
                 hover:bg-gradient-to-r hover:from-[#A458A2] hover:to-[#342A7C] hover:text-white
                 hover:shadow-[0px_30px_60px_rgba(151,83,158,0.5)]"
             >
               <img
-  src={card.image}
-  alt={card.title}
-  className="h-[80px] w-auto object-contain mb-4 transition duration-300
-    group-hover:filter group-hover:brightness-0 group-hover:invert"
-/>
-
-
+                src={card.image}
+                alt={card.title}
+                className="h-[80px] w-auto object-contain mb-4 transition duration-300
+                  group-hover:filter group-hover:brightness-0 group-hover:invert"
+              />
               <h3 className="text-2xl font-semibold mb-2">{card.title}</h3>
               <p className="text-md mb-4 leading-relaxed">{card.description}</p>
               <button
