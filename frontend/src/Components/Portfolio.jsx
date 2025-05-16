@@ -23,14 +23,14 @@ const Portfolio = () => {
 
   return (
     <section className="w-full bg-cover bg-center" style={{ backgroundImage: `url(${PortfolioBg})` }}>
-      <section className="max-w-[1200px] mx-auto text-center pt-[80px] pb-[30px]">
+      <section className="max-w-[1200px] mx-auto text-center pt-[80px] xxs:pt-[60px] pb-[30px] xxs:px-4">
         <button
           disabled
-          className="badge !px-10 !py-3"
+          className="badge !px-10 !py-3 xxs:!px-[16px] xxs:text-[16px]"
         >
           Our Portfolio
         </button>
-        <h2 className="text-white text-[40px] font-semibold leading-snug mx-auto">
+        <h2 className="text-white text-[40px] xxs:text-[25px] font-semibold leading-snug mx-auto">
           Experience powerful storytelling across a variety of genres, brought to life by our talented team of writers.
         </h2>
       </section>
@@ -64,7 +64,7 @@ const Portfolio = () => {
       </div>
 
       <section className="flex justify-center pt-[30px] pb-[80px]">
-        <button className="card-button relative flex items-center justify-center px-9 py-3 text-white text-[20px] font-semibold rounded-full z-10 bg-gradient-to-r from-[#2E2A7A] to-[#1BBED3] hover:from-[white] hover:to-[white] hover:text-black">
+        <button className="card-button relative flex items-center justify-center px-9 xxs:px-5 py-3 text-white text-[20px] xxs:text-[16px] font-semibold rounded-full z-10 bg-gradient-to-r from-[#2E2A7A] to-[#1BBED3] hover:from-[white] hover:to-[white] hover:text-black">
           See All Portfolios
         </button>
       </section>

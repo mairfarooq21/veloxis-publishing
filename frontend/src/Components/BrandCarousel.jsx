@@ -17,7 +17,7 @@ const logos = [
 
 const BrandCarousel = () => {
   return (
-    <section className="bg-white py-[60px] overflow-hidden w-[78%] mx-auto">
+    <section className="bg-white py-[60px] xxs:pt-[50px] xxs:pb-[10px] overflow-hidden w-[78%] mx-auto">
       <div className="relative w-full max-w-[1200px] mx-auto h-[100px]">
         <div className="flex w-max animate-carousel gap-10">
           {[...logos, ...logos].map((logo, i) => (

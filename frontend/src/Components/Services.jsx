@@ -56,14 +56,14 @@ const Services = () => {
   };
 
   return (
-    <section className="py-16 flex flex-col items-center max-w-full mx-auto">
-      <div className="w-[78%] xs:w-[100%] xs:px-10 mb-10">
-        <div className="flex justify-between items-end w-full pb-11">
-          <div className="w-[800px]">
-            <span className="gradient-border text-md xs:text-[14px] !px-10 !py-3">
+    <section className="py-16 xxs:pb-[0px] flex flex-col items-center max-w-full mx-auto xxs:overflow-x-hidden">
+      <div className="w-[78%] xs:w-[100%] xs:px-10 xxs:px-4 mb-10 xxs:mb-6">
+        <div className="flex xxs:flex-col justify-between items-end xxs:gap-[30px] w-full pb-11 xxs:pb-[0px]">
+          <div className="w-[800px] xxs:w-full">
+            <span className="gradient-border text-md xs:text-[14px] !px-10 !py-3 xxs:!px-[14px] xxs:text-[13px]">
               We Offer a Range of
             </span>
-            <h2 className="text-[45px] xs:text-[40px] font-semibold mb-1 mt-5 text-[#201A1A]">
+            <h2 className="text-[45px] xxs:text-[27px] xs:text-[40px] font-semibold mb-1 mt-5 text-[#201A1A] xxs:leading-[32px]">
               Professional Ghostwriting Services,
             </h2>
             <p className="text-[18px] xs:text-[16px] leading-relaxed text-[#666666]">
@@ -71,18 +71,17 @@ const Services = () => {
             </p>
           </div>
           <div className="flex gap-2 ml-auto mb-4 lg:mb-0">
-            <img src={ArrowLeft} className="w-[73px] xs:w-[63px] cursor-pointer" onClick={rotateLeft} alt="Left" />
-            <img src={ArrowRight} className="w-[73px] xs:w-[63px] cursor-pointer" onClick={rotateRight} alt="Right" />
+            <img src={ArrowLeft} className="w-[73px] xs:w-[63px] xxs:w-[53px] cursor-pointer" onClick={rotateLeft} alt="Left" />
+            <img src={ArrowRight} className="w-[73px] xs:w-[63px] xxs:w-[53px] cursor-pointer" onClick={rotateRight} alt="Right" />
           </div>
         </div>
       </div>
-
       <div className="w-full mb-24">
         <div className="flex justify-center transition-transform duration-500 ease-in-out">
           {cards.map((card, index) => (
             <div
               key={index}
-              className="group flex-shrink-0 transition-all duration-300 px-11 py-24 s:px-8 s:py-14 w-[20%] flex flex-col justify-start items-start h-[550px] s:h-[500px]
+              className="group flex-shrink-0 transition-all duration-300 px-11 py-24 s:px-8 s:py-14 w-[20%] xxs:w-[90%] flex flex-col justify-start items-start h-[550px] s:h-[500px]
                 border border-gray-300 bg-white text-black hover:scale-[1.1]
                 hover:bg-gradient-to-r hover:from-[#A458A2] hover:to-[#342A7C] hover:text-white
                 hover:shadow-[0px_30px_60px_rgba(151,83,158,0.5)]"

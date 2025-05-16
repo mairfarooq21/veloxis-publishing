@@ -3,16 +3,16 @@ import Image from '../assets/whywe.png'
 
 const WhyWe = () => {
   return (
-    <section className="flex flex-wrap gap-6 justify-center items-center w-[100%] mx-auto pb-[100px]">
-      <div className="flex justify-end items-center w-[50%] max-h-[300px] xs:max-h-[200px] p-2 bg-gradient-to-r from-[#342A7C] to-[#A458A2]">
-        <img src={Image} alt="Books on blanket" className="max-w-[700px] xs:max-w-[550px]" />
+    <section className="flex flex-wrap xxs:flex-col-reverse gap-6 xxs:gap-[80px] justify-center items-center xxs:items-start w-[100%] mx-auto pb-[100px]">
+      <div className="flex justify-end items-center w-[50%] xxs:w-[90%] max-h-[300px] xs:max-h-[200px] xxs:max-h-[100px] p-2 bg-gradient-to-r from-[#342A7C] to-[#A458A2]">
+        <img src={Image} alt="Books on blanket" className="max-w-[700px] xs:max-w-[550px] xxs:max-w-[280px]" />
       </div>
-      <div className="flex-1 w-[50%] p-5 pr-10">
+      <div className="flex-1 w-[50%] xxs:w-[100%] p-5 xxs:p-4 pr-10 xxs:pr-4">
         <div className='w-[640px] xs:w-fit'>
-          <span className="gradient-border !px-10 xs:!px-8 !py-3 xs:text-[14px]">
+          <span className="gradient-border !px-10 xs:!px-8 !py-3 xs:text-[14px] xxs:!px-[14px] xxs:text-[13px]">
             Why We
           </span>
-          <h2 className="text-[45px] xs:text-[35px] font-semibold mt-4 mb-4 xs:leading-[45px]">
+          <h2 className="text-[45px] xs:text-[35px] xxs:text-[27px] font-semibold mt-4 mb-4 xs:leading-[45px] xxs:leading-[32px]">
             You Need Professional Book Publishing Services?
           </h2>
           <p className="mb-2 leading-relaxed text-[#666666] xs:text-[14px]">
