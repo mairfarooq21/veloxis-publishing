@@ -41,7 +41,7 @@ const testimonials = [
 
 // Testimonial Card with responsive tweaks
 const TestimonialCard = ({ name, title, avatar, content }) => (
-  <div className="bg-white text-black rounded-xl p-5 h-[190px] w-[32%] shrink-0 shadow-md
+  <div className="bg-white text-black rounded-xl p-5 py-[30px] h-[250px] w-[20%] shrink-0 shadow-md
                   xxs:w-[80%] xxs:max-w-[280px] xxs:h-auto">
     <div className="flex justify-between items-center">
       <div className="flex items-center gap-3">
@@ -99,8 +99,6 @@ const TestimonialsSlider = () => (
     </p>
 
     {/* Three rows of sliders for both desktop and mobile */}
-    <TestimonialSlider />
-    <TestimonialSlider reverse />
     <TestimonialSlider />
   </section>
 );
