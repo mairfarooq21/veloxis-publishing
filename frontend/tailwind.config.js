@@ -10,7 +10,9 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
       },
       screens: {
-        'xxl': {'max': '1680px'},
+        's': {'max': '1680px'},
+        'xs': {'max': '1350px'},
+        'xxs': {'max': '430px'},
       },
     },
   },

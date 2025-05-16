@@ -49,7 +49,7 @@ const TestimonialCard = ({ name, title, avatar, platformIcon, content }) => (
         </div>
         <div>
           <div className="font-semibold text-sm">{name}</div>
-          <div className="text-xs text-gray-600">{title}</div>
+          <div className="text-s text-gray-600">{title}</div>
         </div>
       </div>
     </div>

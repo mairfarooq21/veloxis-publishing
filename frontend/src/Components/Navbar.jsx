@@ -6,14 +6,14 @@ import Phone from '../assets/phone.svg'
 const Navbar = () => {
   return (
     <header className="flex justify-between items-center px-5 py-5 mb-[-119px]">
-      <div className="logo w-[192px]">
+      <div className="logo w-[192px] xs:w-[140px]">
         <img
           src={Logo}
           alt="Veloxis Publishing"
-          className="h-[72px]"
+          className="h-[72px] xs:h-[60px]"
         />
       </div>
-      <ul className="flex list-none gap-5 text-white text-[16px]">
+      <ul className="flex list-none gap-5 text-white text-[16px] xs:text-[14px]">
         <NavLink to='/' className="flex flex-col items-center gap-1">
           <p className="font-[500] hover:underline transition-all duration-200">Home</p>
         </NavLink>
@@ -39,15 +39,15 @@ const Navbar = () => {
           <p className="font-[500] hover:underline transition-all duration-200">Contact Us</p>
         </NavLink>
       </ul>
-      <div className="p-[1px] rounded-full bg-gradient-to-r from-[#1BBED3] to-[#2E2A7A] inline-block">
+      <div className="p-[1px] xs:p-[0] rounded-full bg-gradient-to-r from-[#1BBED3] to-[#2E2A7A] inline-block">
         <a
           href="tel:8703339799"
-          className="group gradient-border !text-white bg-gradient-to-r from-[#2E2A7A] to-[#1BBED3] !px-[36px] !py-[11px] flex items-center justify-center rounded-full font-[600] no-underline text-[16px] bg-clip-padding hover:!text-black transition-colors duration-300 hover:from-white hover:to-white"
+          className="group gradient-border !text-white bg-gradient-to-r from-[#2E2A7A] to-[#1BBED3] !px-[36px] xs:!px-[20px] !py-[11px] flex items-center justify-center rounded-full font-[600] no-underline text-[16px] xs:text-[14px] bg-clip-padding hover:!text-black transition-colors duration-300 hover:from-white hover:to-white"
         >
         <img
           src={Phone}
           alt="Call Icon"
-          className="w-[17px] mr-1 transition duration-300 group-hover:invert"
+          className="w-[17px] xs:w-[14px] mr-1 transition duration-300 group-hover:invert"
         />
           (870) 333–9799
         </a>
