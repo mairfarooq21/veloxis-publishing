@@ -3,8 +3,8 @@ import ContactImg from '../assets/contact.png'
 
 const ContactSection = () => {
   return (
-    <div className="flex flex-col self-center md:flex-row gap-12 xxs:gap-0 max-w-[1500px] my-24 mx-auto px-10 overflow-hidden
-                    xxs:px-4 xxs:gap-8">
+    <div className="flex flex-col self-center md:flex-row gap-12 xxs:gap-0 max-w-[1500px] my-24 xxs:my-[60px] mx-auto px-10 overflow-hidden
+                    xxs:px-4">
       {/* Contact Form */}
       <div className="flex-1 bg-white p-6 rounded-lg
                       xxs:p-4">

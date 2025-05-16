@@ -29,9 +29,11 @@ const Quote = () => {
             <input type="email" className="xs:text-[14px] quote-input p-3 w-[240px] xs:w-[210px] xxs:w-[100%]" placeholder="Email" />
             <select className="xs:text-[14px] quote-input p-3 text-[#8f8f8f] w-[240px] xs:w-[210px] xxs:w-[100%]">
               <option className='text-black'>Select eBook Category</option>
-              <option className='text-black'>Business</option>
-              <option className='text-black'>Marketing</option>
-              <option className='text-black'>Technology</option>
+              <option className='text-black'>Book Writing</option>
+              <option className='text-black'>Book Editing</option>
+              <option className='text-black'>Book Marketing</option>
+              <option className='text-black'>Book Publishing</option>
+              <option className='text-black'>Illustration</option>
             </select>
           </div>
         </div>

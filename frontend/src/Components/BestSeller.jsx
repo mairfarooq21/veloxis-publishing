@@ -68,7 +68,7 @@ const BestSeller = () => {
                          xxs:px-6 xxs:py-8 xxs:text-xl"
               onClick={() => toggle(index)}
             >
-              <span className="flex items-center gap-4 xxs:gap-0">
+              <span className="flex items-center gap-4 xxs:gap-0 xxs:w-[80%]">
                 <img
                   src={step.icon}
                   alt="icon"

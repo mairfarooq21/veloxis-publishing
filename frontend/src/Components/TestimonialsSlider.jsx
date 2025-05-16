@@ -83,7 +83,7 @@ const TestimonialSlider = ({ reverse = false }) => (
 const TestimonialsSlider = () => (
   <section
     className="flex flex-col items-center justify-center text-white py-16 px-0 overflow-hidden
-               xxs:py-10 xxs:px-4"
+               xxs:py-10"
     style={{
       backgroundImage: `url(${TestinmonialBg})`,
       backgroundSize: 'cover',

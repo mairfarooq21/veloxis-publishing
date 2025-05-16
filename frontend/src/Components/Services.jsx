@@ -76,12 +76,12 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="w-full mb-24">
+      <div className="w-full mb-24 xxs:mb-[60px]">
         <div className="flex justify-center transition-transform duration-500 ease-in-out">
           {cards.map((card, index) => (
             <div
               key={index}
-              className="group flex-shrink-0 transition-all duration-300 px-11 py-24 s:px-8 s:py-14 w-[20%] xxs:w-[90%] flex flex-col justify-start items-start h-[550px] s:h-[500px]
+              className="group flex-shrink-0 transition-all duration-300 px-11 py-24 s:px-8 s:py-14 w-[20%] xxs:w-[90%] flex flex-col justify-start items-start h-[550px] s:h-[500px] xxs:h-[450px]
                 border border-gray-300 bg-white text-black hover:scale-[1.1]
                 hover:bg-gradient-to-r hover:from-[#A458A2] hover:to-[#342A7C] hover:text-white
                 hover:shadow-[0px_30px_60px_rgba(151,83,158,0.5)]"
