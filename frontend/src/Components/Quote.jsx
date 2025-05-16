@@ -22,7 +22,7 @@ const Quote = () => {
         {/* 2nd Grid: Form Inputs */}
         <div className="flex flex-col items-center gap-[15px] xs:gap-[10px] xxs:gap-[20px] w-[40%] xxs:w-[100%]">
           <div className="flex xxs:flex-col gap-[25px] xs:gap-[20px] xxs:w-full">
-            <input type="text" className="xs:text-[14px] quote-input p-3 w-full xs:w-[210px] xxs:w-full" placeholder="Full Name" />
+            <input type="text" className="xs:text-[14px] quote-input p-3 w-[240px] xs:w-[210px] xxs:w-full" placeholder="Full Name" />
             <input type="text" className="xs:text-[14px] quote-input p-3 w-[240px] xs:w-[210px] xxs:w-[100%]" placeholder="Phone Number" />
           </div>
           <div className="flex xxs:flex-col gap-[25px] xs:gap-[20px] xxs:w-[100%]">
