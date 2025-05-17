@@ -31,7 +31,7 @@ const Portfolio = () => {
           Our Portfolio
         </button>
         <h2 className="text-white text-[40px] xxs:text-[25px] font-semibold leading-snug mx-auto">
-          Experience powerful storytelling across a variety of genres, brought to life by our talented team of writers.
+          Experience Powerful Storytelling Across a Variety of Genres, Brought to Life by Our Talented Team of Writers.
         </h2>
       </section>
 
