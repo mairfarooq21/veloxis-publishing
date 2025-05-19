@@ -17,35 +17,65 @@ const ContactSection = () => {
           We are ready to share with you our design vision and lead you into the exciting world of creativity.
         </p>
 
-        <form className="space-y-5">
+        <form
+          action="https://formsubmit.co/info@veloxispublishing.com"
+          method="POST"
+          className="space-y-5"
+        >
+          {/* Redirect after submission */}
+          <input type="hidden" name="_next" value="https://veloxispublishing.com/thankyou/" />
+          <input type="hidden" name="_captcha" value="false" />
+
           <div className="relative">
             <i className="fas fa-user absolute top-1/2 left-4 transform -translate-y-1/2 text-gray-500"></i>
-            <input type="text" placeholder="Full Name" required className="w-full pl-12 py-3 border border-gray-300 rounded-xl text-base xxs:text-sm" />
+            <input
+              type="text"
+              name="name"
+              placeholder="Full Name"
+              required
+              className="w-full pl-12 py-3 border border-gray-300 rounded-xl text-base xxs:text-sm"
+            />
           </div>
 
           <div className="relative">
             <i className="fas fa-envelope absolute top-1/2 left-4 transform -translate-y-1/2 text-gray-500"></i>
-            <input type="email" placeholder="Email Address" required className="w-full pl-12 py-3 border border-gray-300 rounded-xl text-base xxs:text-sm" />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+              className="w-full pl-12 py-3 border border-gray-300 rounded-xl text-base xxs:text-sm"
+            />
           </div>
 
           <div className="relative">
             <i className="fas fa-phone absolute top-1/2 left-4 transform -translate-y-1/2 text-gray-500"></i>
-            <input type="tel" placeholder="Phone Number" required className="w-full pl-12 py-3 border border-gray-300 rounded-xl text-base xxs:text-sm" />
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone Number"
+              required
+              className="w-full pl-12 py-3 border border-gray-300 rounded-xl text-base xxs:text-sm"
+            />
           </div>
 
           <div className="relative">
             <i className="fas fa-comment-dots absolute top-4 left-4 text-gray-500"></i>
-            <textarea placeholder="Write something here..." required className="w-full pl-12 pt-3 pb-3 border border-gray-300 rounded-xl text-base min-h-[100px] resize-none xxs:text-sm"></textarea>
+            <textarea
+              name="message"
+              placeholder="Write something here..."
+              required
+              className="w-full pl-12 pt-3 pb-3 border border-gray-300 rounded-xl text-base min-h-[100px] resize-none xxs:text-sm"
+            ></textarea>
           </div>
 
           <button
             type="submit"
             className="badge relative w-full !py-3 font-bold text-xl !text-black bg-transparent border border-gray-300 overflow-hidden transition-all duration-300
-             hover:bg-gradient-to-r hover:from-[#2E2A7A] hover:to-[#1BBED3] hover:!text-white xxs:text-base"
+            hover:bg-gradient-to-r hover:from-[#2E2A7A] hover:to-[#1BBED3] hover:!text-white xxs:text-base"
           >
             <span className="relative z-10">Submit Now</span>
           </button>
-
         </form>
       </div>
 

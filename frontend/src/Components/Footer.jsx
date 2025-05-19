@@ -60,16 +60,32 @@ const Footer = () => {
           <p className="text-[#d1d1d1] text-md xxs:text-sm">
             Stay up to date with the latest news, announcements, and articles.
           </p>
-          <div className="flex mt-4 xxs:flex-col xxs:gap-3">
+
+          {/* Newsletter Form */}
+          <form
+            action="https://formsubmit.co/newsletter@veloxispublishing.com"
+            method="POST"
+            className="flex mt-4 xxs:flex-col xxs:gap-3"
+          >
+            {/* Redirect after submission */}
+            <input type="hidden" name="_next" value="https://veloxispublishing.com/thankyou/" />
+            {/* Optional: Disable Captcha if verified */}
+            <input type="hidden" name="_captcha" value="false" />
+
             <input
               type="email"
+              name="email"
               placeholder="Email address"
-              className="px-4 py-3 border border-gray-300 rounded-l-md bg-transparent outline-none xxs:rounded-md xxs:w-full"
+              required
+              className="px-4 py-3 border border-gray-300 rounded-l-md bg-transparent outline-none text-white placeholder:text-[#cccccc] xxs:rounded-md xxs:w-full"
             />
-            <button className="px-4 py-3 bg-gradient-to-r from-[#1e3c72] to-[#2a9fd6] text-white rounded-r-md xxs:rounded-md xxs:w-full hover:from-white hover:to-white hover:text-black">
+            <button
+              type="submit"
+              className="px-4 py-3 bg-gradient-to-r from-[#1e3c72] to-[#2a9fd6] text-white rounded-r-md xxs:rounded-md xxs:w-full hover:from-white hover:to-white hover:text-black"
+            >
               <FaArrowRight className="mx-auto" />
             </button>
-          </div>
+          </form>
         </div>
       </div>
 
