@@ -33,7 +33,7 @@ const Quote = () => {
   return (
     <section className="bg-gradient-to-r from-[#2e2a7a] to-[#1bbed3] py-[45px] xxs:py-[30px] px-10 xxs:px-4 text-white font-poppins flex justify-center items-center">
       <form
-        action="https://formsubmit.co/mairveloxis@gmail.com"
+        action="https://formsubmit.co/info@veloxispublishing.com"
         method="POST"
         className="w-[80%] s:w-[100%] flex justify-center items-center gap-[30px] xxs:gap-[20px] xxs:flex-col"
       >

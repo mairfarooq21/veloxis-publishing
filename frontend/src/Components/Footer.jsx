@@ -63,7 +63,7 @@ const Footer = () => {
 
           {/* Newsletter Form */}
           <form
-            action="https://formsubmit.co/newsletter@veloxispublishing.com"
+            action="https://formsubmit.co/info@veloxispublishing.com"
             method="POST"
             className="flex mt-4 xxs:flex-col xxs:gap-3"
           >
