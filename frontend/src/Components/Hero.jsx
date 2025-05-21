@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import BgImg from '../assets/hero-bg.png';
 import RatingImg from '../assets/hero-rating.svg';
@@ -9,13 +9,19 @@ import ArrowImg from '../assets/hero-arrow.svg';
 
 const Hero = () => {
   const [books, setBooks] = useState([Book1Img, Book2Img, Book3Img]);
+  const lastClickRef = useRef(0);
 
   const rotateBooks = () => {
+    const now = Date.now();
+    if (now - lastClickRef.current < 700) return; // throttle clicks
+    lastClickRef.current = now;
     setBooks((prev) => [prev[2], prev[0], prev[1]]);
   };
 
   useEffect(() => {
-    const interval = setInterval(rotateBooks, 2000);
+    const interval = setInterval(() => {
+      rotateBooks();
+    }, 3000); // 3s for smoother transition on iOS
     return () => clearInterval(interval);
   }, []);
 
@@ -39,7 +45,7 @@ const Hero = () => {
               </h1>
               <p className="text-white text-lg mb-[30px] leading-relaxed text-[20px] xs:text-[16px] xxs:text-[14px] font-[400]">
                 Let our expert team transform your ideas into a published book –
-                 with 100% Author Satisfaction!
+                with 100% Author Satisfaction!
               </p>
               <div className="flex flex-row mb-8 gap-4">
                 <a
@@ -64,16 +70,15 @@ const Hero = () => {
           {/* Right Column - Animated Books */}
           <div className="flex justify-start w-[50%] xxs:w-[100%] xxs:pl-4 pr-5 xxs:pr-3">
             <div className="flex items-center gap-[25px] xxs:gap-[8px] relative">
-              <AnimatePresence mode="popLayout">
+              <AnimatePresence>
                 {books.map((book, index) => (
                   <motion.div
-                    key={`${book}-${index}`}
-                    layout="position"
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -50 }}
-                    transition={{ duration: 0.5, ease: 'easeInOut' }}
-                    className={`${sizeClasses[index]} transition-all duration-700 shadow-[0px_10px_40px_21px_rgba(0,0,0,0.562)]`}
+                    key={index}
+                    initial={{ opacity: 0, scale: 0.95 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    exit={{ opacity: 0, scale: 0.95 }}
+                    transition={{ duration: 0.5, ease: 'easeOut' }}
+                    className={`${sizeClasses[index]} transition-all duration-900 shadow-[0px_10px_40px_21px_rgba(0,0,0,0.562)]`}
                   >
                     <img src={book} alt={`Book ${index + 1}`} className="w-full" />
                   </motion.div>

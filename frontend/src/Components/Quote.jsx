@@ -88,7 +88,7 @@ const Quote = () => {
               name="category"
               value={formData.category}
               onChange={handleChange}
-              className="xs:text-[14px] quote-input p-3 text-[#000000] w-[240px] xs:w-[210px] xxs:w-[100%]"
+              className="xs:text-[14px] quote-input p-3 h-full text-[#000000] w-[240px] xs:w-[210px] xxs:w-[100%]"
               required
             >
               <option value="">Select eBook Category</option>

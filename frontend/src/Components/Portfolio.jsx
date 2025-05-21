@@ -26,7 +26,7 @@ const Portfolio = () => {
       <section className="max-w-[1200px] mx-auto text-center pt-[80px] xxs:pt-[60px] pb-[30px] xxs:px-4">
         <button
           disabled
-          className="badge !px-10 !py-3 xxs:!px-[16px] xxs:text-[16px]"
+          className="badge block mx-auto !px-10 !py-3 xxs:!px-[16px] xxs:text-[16px]"
         >
           Our Portfolio
         </button>
