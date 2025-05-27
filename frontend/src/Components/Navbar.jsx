@@ -23,13 +23,13 @@ const Navbar = () => {
         <ul className="flex list-none gap-5 text-white text-[16px] xxs:text-[14px] xxs:hidden">
           {[
             ['/', 'Home'],
-            ['/about-us', 'About Us'],
-            ['/book-writing', 'Book Writing'],
-            ['/book-editing', 'Book Editing'],
-            ['/book-marketing', 'Book Marketing'],
-            ['/book-publishing', 'Book Publishing'],
-            ['/illustration', 'Illustration'],
-            ['/contact-us', 'Contact Us'],
+            ['/', 'About Us'],
+            ['/', 'Book Writing'],
+            ['/', 'Book Editing'],
+            ['/', 'Book Marketing'],
+            ['/', 'Book Publishing'],
+            ['/', 'Illustration'],
+            ['/', 'Contact Us'],
           ].map(([to, label]) => (
             <li key={to}>
               <NavLink to={to} className="flex flex-col items-center gap-1">
